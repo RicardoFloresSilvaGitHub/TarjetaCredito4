@@ -23,7 +23,6 @@ export class TarjetaService {
 
   deleteTarjeta(id:number):Observable<any>{
     return  this.http.delete(this.myAppUrl + this.myApiUrl+id);
-
   }
 
   saveTarjeta(tarjeta:any):Observable<any>{
